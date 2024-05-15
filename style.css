@@ -17,8 +17,9 @@ body {
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Syne';
-    line-height: 42pt; 
+     
 }
+
 
 p, a {
     font-family: 'Inter';
@@ -44,6 +45,7 @@ p, a {
 .btn-outline-primary:hover {
     background-color: var(--primary-cta);
     color: var(--sort);
+    border: 1px solid var(--sort);
 }
 
 .navbar {
@@ -79,6 +81,10 @@ footer i:hover {
     color: #fff;
 }
 
+main {
+    background-color: var(--blue-grey);
+}
+
 footer h5 {
     color: var(--hvid);
 }
@@ -97,6 +103,12 @@ footer a:hover {
 
 footer {
     background-color: var(--primary-blue);
+}
+
+@media (max-width:768px) {
+    .kontakt, .links, .samarbejde, .socials {
+        text-align: center;
+    }
 }
 
 
