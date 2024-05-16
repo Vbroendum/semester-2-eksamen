@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6{
      
 }
 
+.display-4 {
+font-family: 'syne' !important;
+color: var(--third-cta);
+}
 
 p, a {
     font-family: 'Inter';
@@ -60,7 +64,7 @@ p, a {
 .navbar a:hover{
     color: var(--primary-cta);
 }
-
+/* Navbar active */
 .active {
     color: var(--head-blue)!important;
 }
@@ -68,13 +72,11 @@ p, a {
 .dropdown-menu  {
     background-color: var(--primary-blue);
 }
-
-footer i {
-    color: var(--blue-grey);
-}
-
-footer i:hover {
-    color: var(--hvid)
+/* Kasse rundt om cards på index */
+.grey {
+    background-color: Lightgrey;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 .navbar-nav {
@@ -83,6 +85,15 @@ footer i:hover {
 
 main {
     background-color: var(--blue-grey);
+}
+
+/* Om os */
+.om-os-card {
+    border: none;
+}
+
+.om-os-img {
+    border-radius: 100% !important;
 }
 
 footer h5 {
@@ -101,9 +112,23 @@ footer a:hover {
     color: var(--primary-cta);
 }
 
+footer i {
+    color: var(--blue-grey);
+}
+
+footer i:hover {
+    color: var(--hvid)
+}
+
 footer {
     background-color: var(--primary-blue);
 }
+
+footer .socials a:hover i {
+    color: #ffbe54;
+}
+
+
 
 @media (max-width:768px) {
     .kontakt, .links, .samarbejde, .socials {
